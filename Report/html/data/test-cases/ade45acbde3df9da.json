@@ -1,0 +1,93 @@
+{
+  "uid" : "ade45acbde3df9da",
+  "name" : "test_expression[case93]",
+  "fullName" : "TestCase.test_cases.TestSuit#test_expression",
+  "historyId" : "ddccd62b7336bc352b361653347f7987",
+  "time" : {
+    "start" : 1589191352489,
+    "stop" : 1589191352489,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('TestCase\\\\test_cases.py', 12, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_ice",
+    "time" : {
+      "start" : 1589191352629,
+      "stop" : 1589191352640,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_ice::0",
+    "time" : {
+      "start" : 1589191354048,
+      "stop" : 1589191354054,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSuit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5E473MF"
+  }, {
+    "name" : "thread",
+    "value" : "7828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'expression': '(exception.illegal_ssl_certificate == true and conversation.insist_time <= 1000)', 'elastic': '(essl:>0) AND (dur:<=1000)'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "skip" ]
+  },
+  "source" : "ade45acbde3df9da.json",
+  "parameterValues" : [ "{'expression': '(exception.illegal_ssl_certificate == true and conversation.insist_time <= 1000)', 'elastic': '(essl:>0) AND (dur:<=1000)'}" ]
+}

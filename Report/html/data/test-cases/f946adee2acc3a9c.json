@@ -1,0 +1,93 @@
+{
+  "uid" : "f946adee2acc3a9c",
+  "name" : "test_expression[case32]",
+  "fullName" : "TestCase.test_cases.TestSuit#test_expression",
+  "historyId" : "887cd7ad93de004e883e4d80a9384bc0",
+  "time" : {
+    "start" : 1589191350925,
+    "stop" : 1589191350925,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('TestCase\\\\test_cases.py', 12, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_ice",
+    "time" : {
+      "start" : 1589191352629,
+      "stop" : 1589191352640,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_ice::0",
+    "time" : {
+      "start" : 1589191354048,
+      "stop" : 1589191354054,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSuit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5E473MF"
+  }, {
+    "name" : "thread",
+    "value" : "7828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'expression': '(conversation.starttime < 2020-03-25 00:00:00)', 'elastic': 'stm:[\"1970-03-25 00:00:01\" TO \"2020-03-24 23:59:59\"]'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "skip" ]
+  },
+  "source" : "f946adee2acc3a9c.json",
+  "parameterValues" : [ "{'expression': '(conversation.starttime < 2020-03-25 00:00:00)', 'elastic': 'stm:[\"1970-03-25 00:00:01\" TO \"2020-03-24 23:59:59\"]'}" ]
+}

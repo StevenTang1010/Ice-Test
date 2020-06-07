@@ -1,0 +1,29 @@
+批量导入黑IP，type1
+[Info,41,2020/4/29 10:25:34:784]->调用flag：10451(FEATURE_BLACK_ADD)  标识：70c79640-45b0-46ff-8b89-c5bf5cfa45b8
+{"type":1,"value":[]}
+[Info,41,2020/4/29 10:25:34:793]->返回flag：10451(FEATURE_BLACK_ADD)  标识：70c79640-45b0-46ff-8b89-c5bf5cfa45b8
+{"status":200,"msg":"操作成功","value":{"filter":0,"fail":0,"repetition":0,"success":0}}
+
+单独添加黑IP
+[Info,1,2020/4/29 10:37:09:515]->调用flag：10451(FEATURE_BLACK_ADD)  标识：dfc713f2-601e-493a-9446-0d50ecfd659b
+{"type":1,"value":[{"id":null,"blackDomain":null,"blackIp":"106.187.35.251","description":"20171227_T_Group72_X","createTime":null,"userId":7,"buildType":null}]}
+[Info,1,2020/4/29 10:37:09:526]->返回flag：10451(FEATURE_BLACK_ADD)  标识：dfc713f2-601e-493a-9446-0d50ecfd659b
+{"status":200,"msg":"操作成功","value":{"filter":0,"fail":1,"repetition":1,"success":0}}
+
+批量导入黑域名，type3
+[Info,28,2020/4/29 10:34:05:894]->调用flag：10451(FEATURE_BLACK_ADD)  标识：e1192a49-767d-4f54-8d6f-ac046a9b2ec7
+{"type":3,"value":[]}
+[Info,28,2020/4/29 10:34:05:897]->返回flag：10451(FEATURE_BLACK_ADD)  标识：e1192a49-767d-4f54-8d6f-ac046a9b2ec7
+{"status":200,"msg":"操作成功","value":{"filter":0,"fail":0,"repetition":0,"success":0}}
+
+单独添加黑域名
+[Info,1,2020/4/29 10:35:20:180]->调用flag：10451(FEATURE_BLACK_ADD)  标识：a44e3263-e812-4e62-9695-edc12ae82171
+{"type":3,"value":[{"id":null,"blackDomain":"3d8ace76ccd4400c","blackIp":null,"description":"20171212_I_白象_X","createTime":null,"userId":7,"buildType":null}]}
+[Info,1,2020/4/29 10:35:20:195]->返回flag：10451(FEATURE_BLACK_ADD)  标识：a44e3263-e812-4e62-9695-edc12ae82171
+{"status":200,"msg":"操作成功","value":{"filter":0,"fail":0,"repetition":0,"success":1}}
+
+删除黑IP域名
+[Info,1,2020/5/9 11:12:58:116]->调用flag：10452(FEATURE_BLACK_DEL)  标识：3ea9f550-82dd-41d1-88fd-18831e2d10f6
+{"userId":104,"type":1,"id":[108]}
+[Info,1,2020/5/9 11:12:58:148]->返回flag：10452(FEATURE_BLACK_DEL)  标识：3ea9f550-82dd-41d1-88fd-18831e2d10f6
+{"status":200,"msg":"操作成功"}

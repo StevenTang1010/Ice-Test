@@ -1,0 +1,93 @@
+{
+  "uid" : "9e152a4885691805",
+  "name" : "test_expression[case95]",
+  "fullName" : "TestCase.test_cases.TestSuit#test_expression",
+  "historyId" : "55692bed905a8c22b14212c80585cf12",
+  "time" : {
+    "start" : 1589191352511,
+    "stop" : 1589191352511,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('TestCase\\\\test_cases.py', 12, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_ice",
+    "time" : {
+      "start" : 1589191352629,
+      "stop" : 1589191352640,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_ice::0",
+    "time" : {
+      "start" : 1589191354048,
+      "stop" : 1589191354054,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSuit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5E473MF"
+  }, {
+    "name" : "thread",
+    "value" : "7828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'expression': '(conversation.avg_transfers_rate > 5000) and (conversation.bytes_upload>10000 and conversation.bytes_download<100000)', 'elastic': '(rate:>5000) AND (outb:>10000 AND inb:<100000)'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "skip" ]
+  },
+  "source" : "9e152a4885691805.json",
+  "parameterValues" : [ "{'expression': '(conversation.avg_transfers_rate > 5000) and (conversation.bytes_upload>10000 and conversation.bytes_download<100000)', 'elastic': '(rate:>5000) AND (outb:>10000 AND inb:<100000)'}" ]
+}

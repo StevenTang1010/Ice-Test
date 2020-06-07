@@ -1,0 +1,205 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "children" : [ {
+        "name" : "test_add_black_ip[blackipdict0]",
+        "uid" : "6ebcb971fa03791f",
+        "parentUid" : "242a1f3a3c1e85f021521c65d861dfbb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353126,
+          "stop" : 1589191353134,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '106.187.35.251', 'dns': 'F58D9A0CC37017C0', 'remark': '20171227_T_Group72_X'}" ]
+      }, {
+        "name" : "test_add_black_ip[blackipdict1]",
+        "uid" : "a15e7eec92819b76",
+        "parentUid" : "242a1f3a3c1e85f021521c65d861dfbb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353266,
+          "stop" : 1589191353277,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '185.81.113.82', 'dns': '3D8ACE76CCD4400C', 'remark': '20180103_I_白象_X'}" ]
+      }, {
+        "name" : "test_add_black_ip[blackipdict2]",
+        "uid" : "6a5159be37e4f92d",
+        "parentUid" : "242a1f3a3c1e85f021521c65d861dfbb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353302,
+          "stop" : 1589191353313,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '176.107.185.249', 'dns': '8AD64DADC4AFCCE2', 'remark': '20180116_V_海莲花_X'}" ]
+      }, {
+        "name" : "test_add_black_ip[blackipdict3]",
+        "uid" : "7dcac3a6867eee95",
+        "parentUid" : "242a1f3a3c1e85f021521c65d861dfbb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353330,
+          "stop" : 1589191353342,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '124.238.253.88', 'dns': '88AFE54F9C0FEC6F', 'remark': '20180202_T_Group72_FISH'}" ]
+      }, {
+        "name" : "test_add_black_ip[blackipdict4]",
+        "uid" : "b4c5e511dcc20fb1",
+        "parentUid" : "242a1f3a3c1e85f021521c65d861dfbb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353366,
+          "stop" : 1589191353376,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '146.185.253.131', 'dns': '094F4D705FC993DD', 'remark': '20180322_R_APT28_X'}" ]
+      } ],
+      "uid" : "242a1f3a3c1e85f021521c65d861dfbb"
+    }, {
+      "name" : "AssertionError: assert 500 == 200\n  -500\n  +200",
+      "children" : [ {
+        "name" : "test_add_black_dns[blackipdict0]",
+        "uid" : "5262a6113a035b59",
+        "parentUid" : "0fd1661275ace8175e9899f3cd848515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353624,
+          "stop" : 1589191353631,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '106.187.35.251', 'dns': 'F58D9A0CC37017C0', 'remark': '20171227_T_Group72_X'}" ]
+      }, {
+        "name" : "test_add_black_dns[blackipdict1]",
+        "uid" : "5b2e94ae86393bc",
+        "parentUid" : "0fd1661275ace8175e9899f3cd848515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353647,
+          "stop" : 1589191353653,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '185.81.113.82', 'dns': '3D8ACE76CCD4400C', 'remark': '20180103_I_白象_X'}" ]
+      }, {
+        "name" : "test_add_black_dns[blackipdict2]",
+        "uid" : "3dec592f8837197",
+        "parentUid" : "0fd1661275ace8175e9899f3cd848515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353670,
+          "stop" : 1589191353679,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '176.107.185.249', 'dns': '8AD64DADC4AFCCE2', 'remark': '20180116_V_海莲花_X'}" ]
+      }, {
+        "name" : "test_add_black_dns[blackipdict3]",
+        "uid" : "46654202b3fe08da",
+        "parentUid" : "0fd1661275ace8175e9899f3cd848515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353692,
+          "stop" : 1589191353699,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '124.238.253.88', 'dns': '88AFE54F9C0FEC6F', 'remark': '20180202_T_Group72_FISH'}" ]
+      }, {
+        "name" : "test_add_black_dns[blackipdict4]",
+        "uid" : "a48d210c449712ed",
+        "parentUid" : "0fd1661275ace8175e9899f3cd848515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589191353713,
+          "stop" : 1589191353721,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '146.185.253.131', 'dns': '094F4D705FC993DD', 'remark': '20180322_R_APT28_X'}" ]
+      } ],
+      "uid" : "0fd1661275ace8175e9899f3cd848515"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'NoneType' object is not iterable",
+      "children" : [ {
+        "name" : "test_del_black_dns[blackipdict0]",
+        "uid" : "62f3824260b71c70",
+        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589191353738,
+          "stop" : 1589191353858,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '106.187.35.251', 'dns': 'F58D9A0CC37017C0', 'remark': '20171227_T_Group72_X'}" ]
+      }, {
+        "name" : "test_del_black_dns[blackipdict1]",
+        "uid" : "1e41971f647b897a",
+        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589191353873,
+          "stop" : 1589191353900,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '185.81.113.82', 'dns': '3D8ACE76CCD4400C', 'remark': '20180103_I_白象_X'}" ]
+      }, {
+        "name" : "test_del_black_dns[blackipdict2]",
+        "uid" : "dfbc5d8b95089157",
+        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589191353914,
+          "stop" : 1589191353943,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '176.107.185.249', 'dns': '8AD64DADC4AFCCE2', 'remark': '20180116_V_海莲花_X'}" ]
+      }, {
+        "name" : "test_del_black_dns[blackipdict3]",
+        "uid" : "e378462a63e1d438",
+        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589191353958,
+          "stop" : 1589191353982,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '124.238.253.88', 'dns': '88AFE54F9C0FEC6F', 'remark': '20180202_T_Group72_FISH'}" ]
+      }, {
+        "name" : "test_del_black_dns[blackipdict4]",
+        "uid" : "5b24cc0280f39f0c",
+        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589191353995,
+          "stop" : 1589191354018,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "parameters" : [ "{'ip': '146.185.253.131', 'dns': '094F4D705FC993DD', 'remark': '20180322_R_APT28_X'}" ]
+      } ],
+      "uid" : "5ae019e15b757cc14ae13e78aec51419"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

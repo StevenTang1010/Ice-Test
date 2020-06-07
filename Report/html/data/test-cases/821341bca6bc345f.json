@@ -1,0 +1,103 @@
+{
+  "uid" : "821341bca6bc345f",
+  "name" : "test_del_black_ip[blackipdict4]",
+  "fullName" : "TestCase.test_cases.TestSuit#test_del_black_ip",
+  "historyId" : "f44950c63ccc663e36436538e2c91b7d",
+  "time" : {
+    "start" : 1589191353607,
+    "stop" : 1589191353615,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_ice",
+    "time" : {
+      "start" : 1589191352629,
+      "stop" : 1589191352640,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "rule_manager_setup",
+    "time" : {
+      "start" : 1589191353115,
+      "stop" : 1589191353125,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_ice::0",
+    "time" : {
+      "start" : 1589191354048,
+      "stop" : 1589191354054,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSuit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5E473MF"
+  }, {
+    "name" : "thread",
+    "value" : "7828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "blackipdict",
+    "value" : "{'ip': '146.185.253.131', 'dns': '094F4D705FC993DD', 'remark': '20180322_R_APT28_X'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "821341bca6bc345f.json",
+  "parameterValues" : [ "{'ip': '146.185.253.131', 'dns': '094F4D705FC993DD', 'remark': '20180322_R_APT28_X'}" ]
+}

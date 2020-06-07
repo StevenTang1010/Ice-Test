@@ -1,0 +1,109 @@
+{
+  "uid" : "dfbc5d8b95089157",
+  "name" : "test_del_black_dns[blackipdict2]",
+  "fullName" : "TestCase.test_cases.TestSuit#test_del_black_dns",
+  "historyId" : "1008625bdcdfe124be026cd7c9a611ed",
+  "time" : {
+    "start" : 1589191353914,
+    "stop" : 1589191353943,
+    "duration" : 29
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+  "statusTrace" : "self = <TestCase.test_cases.TestSuit object at 0x0000025F7594B940>\nrule_manager_setup = <TestCase.rule_manager.blackinfo.BlackData object at 0x0000025F757DBB00>\nblackipdict = {'dns': '8AD64DADC4AFCCE2', 'ip': '176.107.185.249', 'remark': '20180116_V_海莲花_X'}\n\n    @pytest.mark.parametrize('blackipdict', safe_load(open(\n    \tpath.join(path.join(path.dirname(path.abspath(__file__)), 'case_yaml'), 'blackdata.yaml'))))\n    def test_del_black_dns(self, rule_manager_setup, blackipdict: dict):\n>   \tresponse, db_len = rule_manager_setup.del_blackdns(blackipdict)\nE    TypeError: 'NoneType' object is not iterable\n\nTestCase\\test_cases.py:88: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_ice",
+    "time" : {
+      "start" : 1589191352629,
+      "stop" : 1589191352640,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "rule_manager_setup",
+    "time" : {
+      "start" : 1589191353115,
+      "stop" : 1589191353125,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_ice::0",
+    "time" : {
+      "start" : 1589191354048,
+      "stop" : 1589191354054,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSuit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5E473MF"
+  }, {
+    "name" : "thread",
+    "value" : "7828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "blackipdict",
+    "value" : "{'ip': '176.107.185.249', 'dns': '8AD64DADC4AFCCE2', 'remark': '20180116_V_海莲花_X'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dfbc5d8b95089157.json",
+  "parameterValues" : [ "{'ip': '176.107.185.249', 'dns': '8AD64DADC4AFCCE2', 'remark': '20180116_V_海莲花_X'}" ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "6d5313fff67a6785",
+  "name" : "test_expression[case53]",
+  "fullName" : "TestCase.test_cases.TestSuit#test_expression",
+  "historyId" : "e8f877612101123819ead765ca0f2f7b",
+  "time" : {
+    "start" : 1589191351422,
+    "stop" : 1589191351422,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('TestCase\\\\test_cases.py', 12, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_ice",
+    "time" : {
+      "start" : 1589191352629,
+      "stop" : 1589191352640,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_ice::0",
+    "time" : {
+      "start" : 1589191354048,
+      "stop" : 1589191354054,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSuit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5E473MF"
+  }, {
+    "name" : "thread",
+    "value" : "7828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'expression': '(protocol != sqlserver and protocol != oracle)', 'elastic': '((_exists_:appp AND NOT appp:2003) OR (_exists_:aprtcl AND NOT aprtcl:2003)) AND ((_exists_:appp AND NOT appp:2004) OR (_exists_:aprtcl AND NOT aprtcl:2004))'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "skip" ]
+  },
+  "source" : "6d5313fff67a6785.json",
+  "parameterValues" : [ "{'expression': '(protocol != sqlserver and protocol != oracle)', 'elastic': '((_exists_:appp AND NOT appp:2003) OR (_exists_:aprtcl AND NOT aprtcl:2003)) AND ((_exists_:appp AND NOT appp:2004) OR (_exists_:aprtcl AND NOT aprtcl:2004))'}" ]
+}
